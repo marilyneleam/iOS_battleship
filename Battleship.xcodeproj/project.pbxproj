@@ -11,6 +11,12 @@
 		BD3378982C44CE350084BAEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378972C44CE350084BAEC /* ContentView.swift */; };
 		BD33789A2C44CE360084BAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3378992C44CE360084BAEC /* Assets.xcassets */; };
 		BD33789E2C44CE360084BAEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD33789D2C44CE360084BAEC /* Preview Assets.xcassets */; };
+		BD3378A52C44CE970084BAEC /* DifficultySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378A42C44CE970084BAEC /* DifficultySelectionView.swift */; };
+		BD3378A72C44CEAE0084BAEC /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378A62C44CEAE0084BAEC /* GameModel.swift */; };
+		BD3378A92C44CEC70084BAEC /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378A82C44CEC70084BAEC /* GridView.swift */; };
+		BD3378AB2C44CEDA0084BAEC /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378AA2C44CEDA0084BAEC /* PlacementView.swift */; };
+		BD3378AD2C44CEED0084BAEC /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378AC2C44CEED0084BAEC /* ScoreView.swift */; };
+		BD3378AF2C44CF030084BAEC /* ShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378AE2C44CF030084BAEC /* ShootingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		BD3378992C44CE360084BAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD33789B2C44CE360084BAEC /* Battleship.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Battleship.entitlements; sourceTree = "<group>"; };
 		BD33789D2C44CE360084BAEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD3378A42C44CE970084BAEC /* DifficultySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultySelectionView.swift; sourceTree = "<group>"; };
+		BD3378A62C44CEAE0084BAEC /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		BD3378A82C44CEC70084BAEC /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		BD3378AA2C44CEDA0084BAEC /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		BD3378AC2C44CEED0084BAEC /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		BD3378AE2C44CF030084BAEC /* ShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				BD3378992C44CE360084BAEC /* Assets.xcassets */,
 				BD33789B2C44CE360084BAEC /* Battleship.entitlements */,
 				BD33789C2C44CE360084BAEC /* Preview Content */,
+				BD3378A42C44CE970084BAEC /* DifficultySelectionView.swift */,
+				BD3378A62C44CEAE0084BAEC /* GameModel.swift */,
+				BD3378A82C44CEC70084BAEC /* GridView.swift */,
+				BD3378AA2C44CEDA0084BAEC /* PlacementView.swift */,
+				BD3378AC2C44CEED0084BAEC /* ScoreView.swift */,
+				BD3378AE2C44CF030084BAEC /* ShootingView.swift */,
 			);
 			path = Battleship;
 			sourceTree = "<group>";
@@ -140,6 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3378982C44CE350084BAEC /* ContentView.swift in Sources */,
+				BD3378A72C44CEAE0084BAEC /* GameModel.swift in Sources */,
+				BD3378AB2C44CEDA0084BAEC /* PlacementView.swift in Sources */,
+				BD3378AF2C44CF030084BAEC /* ShootingView.swift in Sources */,
+				BD3378A52C44CE970084BAEC /* DifficultySelectionView.swift in Sources */,
+				BD3378AD2C44CEED0084BAEC /* ScoreView.swift in Sources */,
+				BD3378A92C44CEC70084BAEC /* GridView.swift in Sources */,
 				BD3378962C44CE350084BAEC /* BattleshipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
